@@ -1,0 +1,72 @@
+# build prop start
+ro.build.release_type=true
+persist.sys.assert.state=false
+persist.sys.assert.panic=false
+persist.sys.dump=0
+persist.sys.powerkeydump=0
+persist.sys.assert.enabletip=0
+persist.sys.log.user=1
+persist.sys.mtk.pwkdump=0
+persist.vendor.engineer.hide.log=6996
+persist.vendor.engineer.hide.warn=6776
+ro.product.bootreg.disable.command=true
+ro.build.device_family=OPMT6891
+ro.soc.model=MT6891
+ro.soc.manufacturer=Mediatek
+ro.build.kernel.id=4.14.186
+ro.oplus.system.camera.name=com.oplus.camera
+ro.camera.hfr.enable=1
+ro.camera.videoeis.enable=1
+ro.camera.temperature.limit=440
+ro.camera.portrait.blur.level.enable=1
+ro.separate.soft=20619
+ro.product.authentication=2021CP3338
+ro.vendor.oplus.market.name=RMX2205
+ro.product.first_api_level=30
+ro.sys.reserve.integrate=true
+persist.sys.oppo.fusionlight=true
+persist.sys.oppo.proximity=true
+ro.build.product=RMX2205
+ro.vendor.product.oem=RMX2205
+ro.vendor.product.device.oem=RMX2205CN
+persist.sys.oplus.nandswap.condition=true
+persist.sys.oplus.nandswap=true
+persist.version.confidential=false
+ro.version.confidential=false
+ro.build.display.id=RMX2205_11_A.01
+ro.build.display.id_ims=RMX2205_11_A.01_220822
+ro.mediatek.version.release=RMX2205_11_A.01_220822
+ro.vendor.mediatek.version.release=RMX2205_11_A.01_220822
+############################## Add OPLUS Info Common Begin ##############################
+ro.vendor.mtk_protocol1_rat_config=N/C/Lf/Lt/W/G
+ro.vendor.mtk_ps1_rat=N/C/Lf/Lt/W/G
+ro.vendor.mtk_md1_support=25
+ro.vendor.mtk_md3_support=0
+ro.vendor.mtk_irat_support=0
+ro.vendor.mtk_c2k_lte_mode=2
+ro.vendor.mtk_eccci_c2k=1
+ro.vendor.mtk_lte_support=1
+ro.vendor.mtk_c2k_support=1
+ro.product.hw=20619
+persist.vendor.network.type=9
+sys.oplus.nw.hongbao=1
+sys.oplus.nw.optimize=1
+ro.oplus.radio.auto_nr_mode=3
+ro.oplus.radio.auto_nr_mode_sub=3
+persist.oplus.network.pdp_recovery.config=1,0
+persist.oplus.network.qos_limit_notification=1
+persist.vendor.oplus.radio.ct_volte_support=2
+ro.oplus.radio.lte_oos_interval=72000
+ro.oplus.radio.gsm_oos_interval=48000
+ro.oplus.radio.evdo_oos_interval=45000
+persist.sys.oplus.radio.signal_recovery.config=1,1,1800,30,10,20,30,86400,10,60,120,1,0,0,1,0,0,0
+ro.oplus.radio.dual_nr_toggle_enabled=false
+ro.boot.product.hardware.sku=dsds
+############################## Add OPLUS Info Common End ##############################
+ro.vendor.wlan.standalone.log=n
+# Auto-added by post_process_props.py
+ro.oplus.image.odm.type=20619
+import /odm/etc/${ro.boot.prjname}/build.prop
+import /mnt/vendor/my_manifest/build.prop
+# DONOT_GENERATE_FEC is 
+ro.oplus.image.odm.version=version_stub.ac81bbdc

@@ -1,0 +1,6 @@
+system_ext/apex/com.android.vndk.v30.apex
+system_ext/priv-app/SystemUI/SystemUI.apk
+odm/etc/fad/license.lic
+odm/etc/camera/sensetime
+odm/etc/camera/license_release_fdc.lic
+odm/etc/camera/model/license.lic
